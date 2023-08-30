@@ -1,0 +1,53 @@
+main {
+    text-align: center;
+  }
+  
+  #confirmation {
+    max-width: 50rem;
+    margin: 3rem auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    background-color: #6633c4;
+    border-radius: 6px;
+    color: white
+  }
+  
+  #confirmation h2 {
+    color: inherit;
+    font-size: 2rem;
+  }
+  
+  #confirmation p {
+    font-size: 1.25rem;
+  }
+  
+  #confirmation p a {
+    color: #cf74df;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #continue p {
+    margin: 2rem 0;
+  }
+  
+  #continue .btn {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+  .sc1 {
+    background-color: rgba(86, 85, 84, 0.6); /* Нежный белый цвет с небольшой прозрачностью */
+    padding: 20px; /* Добавляем немного отступов для разделения текста от фона */
+    border-radius: 10px; /* Скругляем углы для создания мягкого контейнера */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Добавляем небольшую тень */
+    margin-bottom: 20px; /* Добавляем немного отступа снизу */
+
+    
+  }
+  .sc1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    max-width: 100%;
+  }
